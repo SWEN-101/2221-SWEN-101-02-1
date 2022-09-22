@@ -8,7 +8,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Torin Samples
 - Aden Wilmore
 - Emmet Spencer
-- MEMBER04
+- Samuel Maselli
 - MEMBER05
 
 ## Prerequisites  <_add anything else that applies_>
