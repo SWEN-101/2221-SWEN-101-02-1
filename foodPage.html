@@ -2,39 +2,43 @@
 <html lang = "en">
 <meta charset = "UTF-8">
 <title>Food Page</title>
-<meta name = "viewport" content="width=device-width,initial-scale=1">
+<meta food_name = "viewport" content="width=device-width,initial-scale=1">
 <link rel = "stylesheet" href="">
 
 <style>
     #home_button {
         border: none;
         color: darkcyan;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
+        /* text-align: center; */
         font-size: 16px;
+        border-radius: 20px;
+        /* margin-left: 90%; */
     }
     
-    #heading {
+    #food_name {
         border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        flex: auto;
     }
 
     #banner {
         height: 120px;
         background-color: rgb(255, 216, 144);
+        display: flex;
+        flex-direction: row;
+    }
+
+    #button_styler {
+        flex: auto;
     }
 
 </style>
 
 <body style = "background-color: orange;">
     <div id = "banner"> 
-        <div id = "heading">
+        <div id = "food_name">
             <h1 style = "color:black; font-size: 40px; font-weight: bold;">Food Page</h1>
         </div>
-        <div>
+        <div id = "button_styler">
             <form action = "./homePage.html"><button id = "home_button" type = submit>Return Home</button></form>
         </div>
     </div>
