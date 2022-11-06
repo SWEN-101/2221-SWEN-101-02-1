@@ -5,21 +5,19 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
 <style>
-#leftbox {
+            
+            #leftbox {
                 float:left; 
-                background:white;
                 width:33%;
                 height:400px;
             }
             #middlebox{
                 float:left; 
-                background:white;
                 width:34%;
                 height:400px;
             }
             #rightbox{
                 float:right;
-                background:white;
                 width:33%;
                 height:400px;
             }
@@ -27,13 +25,16 @@
                 color:green;
                 text-align:center;
             }
+            h1.hide {
+                visibility: hidden;
+                display: none;
+            }
             .box_text{ 
                 text-align: center;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 padding-top:20%;
                 font-size: 30px;
                 color:black;
-                background-color: white;
                 margin-right: auto;
                 margin-left:auto;
                 height: 50%;
@@ -49,26 +50,27 @@
                 border-color:black;
                 border-radius:25px;
             }
+            
 </style>
-    <body>
+    <body style="background-color: rgb(255, 216, 144);">
 
         <div class="heading" style="justify-content: center;align-items: center;display: flex;height: 120px;background-color: orange;">
             <a style="color:black;font-size: 40px;background-color:orange; font-weight: bold;">Welcome back {username}!</a>
         </div>
-        <div class="boxes">
+        <div class="boxes" style="background-color: rgb(255, 216, 144);">
             <div id = "leftbox">
                 <div class="box">
-                    <h1 class="box_text">School</h1>
+                    <h1 class="box_text"><a href="">📚 School</a></h1>
                 </div>
             </div> 
             <div id = "middlebox">
                 <div class="box">
-                    <h1 class="box_text">Helpful Links</h1>
+                    <h1 class="box_text"><a href="./healthpage.html">🩺 Health</a></h1>
                 </div>
             </div>
             <div id = "rightbox">
                 <div class="box">
-                    <h1 class="box_text">Groups & Clubs</h1>
+                    <h1 class="box_text"><a href="./foodPage.html" class="hide">Food 🍔</a></h1>
                 </div>
             </div>
         </div>
