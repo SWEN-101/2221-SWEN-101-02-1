@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<html lang = "en">
+<meta charset = "UTF-8">
+<title>Food Page</title>
+<meta name = "viewport" content="width=device-width,initial-scale=1">
+<link rel = "stylesheet" href="">
+
 <style>
-    .home_button {
+    #home_button {
         border: none;
-        color: white;
+        color: darkcyan;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
     }
+    
+    #heading {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner {
+        height: 120px;
+        background-color: rgb(255, 216, 144);
+    }
 
 </style>
-<script src=""></script>
 
-<body style = "background-color: white;">
-    <div class="heading" style="justify-content: center;align-items: center;display: flex;height: 120px;background-color: orange;">
-        <a style = "color:black; font-size: 40px; background-color:orange; font-weight: bold;">Food Page</a>
-        <button id = "home_button" type = submit>Return Home</button>
+<body style = "background-color: orange;">
+    <div id = "banner"> 
+        <div id = "heading">
+            <h1 style = "color:black; font-size: 40px; font-weight: bold;">Food Page</h1>
+        </div>
+        <div>
+            <form action = "./homePage.html"><button id = "home_button" type = submit>Return Home</button></form>
+        </div>
     </div>
 
 </body>
