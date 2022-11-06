@@ -12,14 +12,43 @@ type="text/css">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
 <style>
-    
+    #page_name {
+        border: none;
+        position: relative;
+        float: left;
+        margin-left: 41%;
+    }
+
+    #banner {
+        height: 120px;
+        background-color: orange;
+    }
+
+    #home_styler {
+        border-radius: 20px;
+        border: darkblue;
+        background-color: darkcyan;
+        height: 30px;
+        width: 120px;
+        margin:0 3.5% 0 0;
+        top: 37%;
+        position: relative;
+        float: right;
+        line-height: 30px;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
 </style>
 <body>
 
 
 
-<div class="Heading">
- <h1 align = "center"> Health Page</h1>
+<div id = "banner">
+    <div id = "page_name">
+        <h1 style = "color:black; font-size: 40px; font-weight: bold;">Health Page</h1>
+    </div>
+    <a href = "./homePage.html"><div id = "home_styler">Return Home</div></a>
 </div>
 
 </body>
