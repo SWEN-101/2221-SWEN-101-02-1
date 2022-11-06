@@ -1,0 +1,22 @@
+div#button{
+    background-color: darkkhaki;
+    height:150px;
+    width:300px;
+    margin: 30px;
+    
+}
+div#button2{
+    background-color: darkkhaki;
+    height:150px;
+    width:300px;
+    margin: 30px;
+   
+}
+div#button3{
+    text-align: center;
+    text-size-adjust: auto;
+    background-color: darkkhaki;
+    height:150px;
+    width:750px;
+    margin: 100px;
+}
