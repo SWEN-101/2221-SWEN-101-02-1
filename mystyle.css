@@ -1,22 +1,24 @@
 div#button{
-    background-color: darkkhaki;
-    height:150px;
-    width:300px;
-    margin: 30px;
     
+    background-color: rgb(255, 255, 255);
+    height:200px;
+    width:550px;
+    margin: 190px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
 }
 div#button2{
-    background-color: darkkhaki;
+    background-color: rgb(255, 255, 255);
     height:150px;
     width:300px;
     margin: 30px;
-   
+    border: 5px solid rgb(0, 0, 0);
 }
 div#button3{
-    text-align: center;
-    text-size-adjust: auto;
-    background-color: darkkhaki;
-    height:150px;
+    
+    background-color: rgb(255, 255, 255);
+    height:200px;
     width:750px;
-    margin: 100px;
+    margin: 575px;
+    border: 5px solid rgb(0, 0, 0);
 }
