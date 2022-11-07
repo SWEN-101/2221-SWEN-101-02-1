@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 216, 144);
+}
+.heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    background-color: orange;
+
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.box{
+                
+    margin: 3%;
+    text-align:center;
+    height:100%;
+    width:100%;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius:25px;
+}
+.box-text{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    padding-top:10%;
+    padding-bottom:10%;
+    font-size: 30px;
+
+    color:black;
+    margin: auto;
+}
