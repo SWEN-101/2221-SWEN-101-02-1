@@ -29,6 +29,9 @@
                 visibility: hidden;
                 display: none;
             }
+            .hide{
+                text-decoration: none;
+            }
             .box_text{ 
                 text-align: center;
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,6 +41,7 @@
                 margin-right: auto;
                 margin-left:auto;
                 height: 50%;
+                text-decoration: none;
             }
             .box{
                 margin-top:25%;
@@ -50,6 +54,28 @@
                 border-color:black;
                 border-radius:25px;
             }
+            .box-subsection{
+                margin-left: auto;
+                margin-right:auto;
+                
+                height:50px;
+                width:55%;
+                background-color: white;
+                border-style: solid;
+                border-color:black;
+                border-radius:10px;
+            }
+            .subsection-text{
+                padding-left: 10px;
+                padding-bottom: 10px;
+                text-decoration: none;
+            }
+            .subsection-icon{
+                float:right;
+                width: 50px;
+                height: 50px;
+
+            }
             
 </style>
     <body style="background-color: rgb(255, 216, 144);">
@@ -60,12 +86,19 @@
         <div class="boxes">
             <div id = "leftbox">
                 <div class="box">
-                    <h1 class="box_text"><a href="">📚 School</a></h1>
+                    <h1 class="box_text"><a href="" class="hide">📚 School</a></h1>
                 </div>
+                <div class="box-subsection">
+                    <h3 style="position:fixed;">
+                        <a href="./professorPage.html" class="subsection-text">My Professor</a>
+                    </h3>
+                    <img src="./assets/professor_icon.png" alt="Professor Icon" class="subsection-icon">
+                </div>
+                
             </div> 
             <div id = "middlebox">
                 <div class="box">
-                    <h1 class="box_text"><a href="./healthPage.html">🩺 Health</a></h1>
+                    <h1 class="box_text"><a href="./healthPage.html" class="hide">🩺 Health</a></h1>
                 </div>
             </div>
             <div id = "rightbox">
