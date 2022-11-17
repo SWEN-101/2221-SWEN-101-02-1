@@ -6,20 +6,29 @@
 type="text/css">
 
 <style>
-    #buttons {
+    #row{
+        margin: 0 auto;
+        width: 100%;
+        height: 120px;
+        border: 0px solid black;
+        border-radius: 1px;
+    }
+   
+    #bubble {
         border-radius: 25px;
         border: 2px solid black;
         background-color: white;
-        height: 200px;
-        width: 18.15%;
-        margin-top: 8.5%;
+        height: 100px;
+        position: fixed;
+        margin-left: 33.33%;
+        width: 30.15%;
     }
 
     #button_text {
         color: rgb(45, 141, 186);
         font-size: 30px;
         text-align: center;
-        margin-top: 37.5%;
+        margin-top:7.50%;
     }
 </style>
 
@@ -31,14 +40,25 @@ type="text/css">
         <a href = "./homePage.html"><div id = "home_styler">Return Home</div></a>
     </div>
     <div>
-        <div id = "buttons" style = "float: left; margin-left: 7.5%">
-            <div id = "button_text">Staff 1</div>
+        <div id="bubbles" style="margin-top:20px">
+            <div id="row">
+                <div id = "bubble">
+                    <div id = "button_text">Staff 1</div>
+                </div>
+            </div>
+            <div id="row">
+                <div id = "bubble">
+                    <div id = "button_text">Staff 2</div>
+                </div>
+            </div>
+            <div id="row"> 
+                <div id = "bubble" style="">
+                    <div id = "button_text">Staff 3</div>
+                </div>
+            </div>
         </div>
-        <div id = "buttons" style = "float: left; margin-left: 15%">
-            <div id = "button_text">Staff 2</div>
-        </div>
-        <div id = "buttons" style = "float: right; margin-right: 7.5%">
-            <div id = "button_text">Staff 3</div>
-        </div>
+        
+        
+       
     </div>
     
