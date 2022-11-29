@@ -11,9 +11,8 @@ A compact app that has everything you need while attending a university. This ap
 - Aden Wilmore
 - Emmet Spencer
 - Samuel Maselli
-- MEMBER05
 
-## Prerequisites  <_add anything else that applies_>
+## Prerequisites 
 
 - github accounts and basic github.io knowledge
 - university account
