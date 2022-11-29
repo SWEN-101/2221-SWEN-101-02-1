@@ -20,10 +20,8 @@ A compact app that has everything you need while attending a university. This ap
 
 ## How to access it or run it  <_add when applicable_>
 
-1. Clone the repository and go to the root directory.
-2.  
-3.  
-4.  
+1. Click the link provided above to view Communikey.
+2. Navigate through the website using hyperlinks.
 
 ## Known bugs and disclaimers
 (It may be the case that your implementation is not perfect...)
