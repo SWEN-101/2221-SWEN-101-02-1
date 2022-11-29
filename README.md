@@ -4,10 +4,9 @@
 [CLICK HERE TO VIEW OUR WEBSITE](https://swen-101.github.io/2221-SWEN-101-02-1/homePage.html)
 
 
-An online E-store system built in github.io .. etc. <_replace with other platform requirements_>
+A compact app that has everything you need while attending a university. This app allows students to access everything they need to go about their daily lives ranging from grades to classes to even messaging other classmates and professors. If you want to do something at your university, chances are we can help you do it.
   
 ## Team 
-<_each team member clones repo and then edits/replace with their name below_>
 - Torin Samples
 - Aden Wilmore
 - Emmet Spencer
