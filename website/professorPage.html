@@ -8,24 +8,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css files/homePageStyle.css">
 <link rel="stylesheet" type="text/css" href="css files/homeButtonStyle.css">
+<link rel="stylesheet" type="text/css" href="css files/professorStyle.css">
 
-<body style = "background-color: rgb(255, 216, 144);">
+<body id="body-background">
     <div id = "banner">
-        <div id = "page_name">
-            <h1 id = "text_style">Professor Page</h1>
-        </div>
+        <header id = "banner-text">Professor Page</header>
         <a href = "./homePage.html"><div class = "button-62" id = "home_styler">Return Home</div></a>
     </div>
-    <div style="
-        width: 28%;
-        margin-top: 5%;
-        margin-left: 2%;
-        float:left;
-    ">
-        <div class="box">
-            <img src="images/business_cover.jpeg" style="width:100%;height:100%;">
+    <div id="leftbox">
+        <div class="professor-image">
+            <img src="images/business_cover.jpeg" style="width:100%;height:100%;border-radius:20px">
         </div>
-        <div class="box">
+        <div class="professor-name-section">
             <div class="box-text">
                 Name
             </div>
@@ -36,25 +30,14 @@
             </div>
         </div>
     </div>
-    <div style="
-        width: 28%;
-        margin-top: 5%;
-        margin-left: 5%;
-        float:left;
-    ">
-        <div class="box">
-            <div class="box-text">
+    <div id="middlebox">
+        <div class="middle-box-section">
+            <div class="middle-box-text">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </div>
         </div>
     </div>
-    <div style="
-        width: 28%;
-        height:25vh;
-        margin-top: 5%;
-        margin-right: 2.75%;
-        float:right;
-    ">
+    <div id="rightbox">
         <div class="box">
             <div class="box-text">
                 <a href=""></a>Classes

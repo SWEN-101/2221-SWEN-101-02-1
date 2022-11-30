@@ -4,13 +4,11 @@
     display: flex;
     height: 20vh;
     background-color: orange;
-
     color:black;
     font-size: 40px;
     font-weight: bold;
 }
-.box{
-                
+.box{         
     margin: 3%;
     text-align:center;
     height:100%;
@@ -26,25 +24,28 @@
     padding-top:10%;
     padding-bottom:10%;
     font-size: 30px;
-
     color:black;
     margin: auto;
+}
+
+header {
+    font-size:10px;
 }
 
 #leftbox {
     float:left; 
     width:33%;
-    height:400px;
+    height:800px;
 }
 #middlebox{
     float:left; 
     width:34%;
-    height:400px;
+    height:800px;
 }
 #rightbox{
     float:right;
     width:33%;
-    height:400px;
+    height:800px;
 }
 h1{
     color:green;
@@ -72,7 +73,7 @@ h1.hide {
     margin-top:25%;
     margin-left: auto;
     margin-right:auto;
-    height:50%;
+    height:27%;
     width:55%;
     background-color: white;
     border-style: solid;
@@ -81,8 +82,7 @@ h1.hide {
 }
 .box-subsection{
     margin-left: auto;
-    margin-right:auto;
-    
+    margin-right: auto;
     height:50px;
     width:55%;
     background-color: white;
