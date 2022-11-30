@@ -8,20 +8,31 @@
     <link rel="stylesheet" type="text/css" href="css files/classroom_style.css">
 
     <div class="heading">
-        <a style=>My Professor</a>
+        <a style=>Calculus</a>
         <a href = "./homePage.html"><div style="padding-left: 50%;">Return Home</div></a>
     </div>
+    
+    <div class = "class-title-bar" >
+        <select class="class-title">
+            <option value="Calculus I">Calculus I</option>
+            <option value="SoftDev&ProbSolv">SoftDev&ProbSolv</option>
+            <option value="Microeconomics">Microeconomics</option>
+            <option value="dny">(does nothing yet)</option>
+        </select>
+    </div>
 
-    <div>
-        <div style="width: 28%; margin-top: 5%; margin-left: 5%; float:left;">
-            <div class="box">
-                <img src="images/business_cover.jpeg" style="width:100%;height:100%;">
-            </div>
+    <div class="left">
+
+        <div class="box">
+            <img src="images/business_cover.jpeg" style="width:100%;height:100%;">
+        </div>
+        <div class="gap"></div>
         <div class="box">
             <div class="box-text">
                 Name
             </div>
         </div>
+        <div class="gap"></div>
         <div class="box">
             <div class="box-text">
                 <a href="https://www.ratemyprofessors.com/">Rate my professor</a> 
@@ -31,11 +42,26 @@
     <div class="middle">
         <div class="box">
             <div class="box-text">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <h2>CLASS ANNOUNCEMENTS</h2>
+                <hr>
+                <div class="announcement">
+                    <i>Tuesday, November 29th</i><br>
+                    <div style="padding: 1.5%;"></div>
+                    <a>Winter break is almost here! Just have to get through finals week. New homework assignments posted on WebWork, check it under the pinned applications.</a>
+                </div>
+                <div style="padding-bottom:1.5%"></div>
+                <hr>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="loading">
+                    <a href="">Load more announcements...</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="sidebar">
+    <div class="right">
         <div class="box">
             <div class="box-text">
                 <a>Instructor Pinned Applications</a>
@@ -43,15 +69,23 @@
                     <div class="cell"><a href="https://desmos.com/calculator"><image src="./images/desmos_icon.png" style="width:100%;height:100%;border-radius:10px;outline:1px solid black;"></image></a></div>
                     <div class="cell"><a href="https://webwork.rit.edu/webwork2"><image src="./images/webwork_icon.png" style="width:100%;height:100%;border-radius:10px;outline:1px solid black;"></image></a></div>
                     <div class="cell"><a href="https://rit.starfishsolutions.com/"><image src="./images/starfish_icon.png" style="width:100%;height:100%;border-radius:10px;outline:1px solid black;"></image></a></div>
-                    <div class="app-title">Desmos</div>
-                    <div class="app-title">WebWork</div>
-                    <div class="app-title">StarFish</div>
+                    <div class="app-title">Desmos <hr>Graphing</div>
+                    <div class="app-title">WebWork <hr>Homework Assignments</div>
+                    <div class="app-title">StarFish <hr>Schedule Meeting</div>
                 </div>
             </div>
         </div>
+        <div class="gap"></div>
         <div class="box">
-            <div class="box-text">
-                <a href=""></a>Office Hours
+            <div class="box-text" style="padding-top:10px">
+                <b >Office Hours</b>
+                <br>
+                Room ABC-1234
+                <hr>
+                MWF <br>10:00am-12:00pm
+                <br>
+                <br>
+                TR <br>9:00am-11:00am
             </div>
         </div>
     </div>
