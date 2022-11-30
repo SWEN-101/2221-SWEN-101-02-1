@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 216, 144);
+}
+.heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    background-color: orange;
+
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.box{
+                
+    margin: 3%;
+    text-align:center;
+    height:100%;
+    width:100%;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius:25px;
+}
+.box-text{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    padding-top:3px;
+    padding-bottom:10%;
+    font-size: 30px;
+
+    color:black;
+    margin: auto;
+}
+
+.sidebar {
+    margin-right:1.8%;
+    width: 20%; 
+    height:45vh; 
+    margin-top: 5%; 
+    margin-left: 5%; 
+    float:right;
+}
+.middle {
+    width: 28%; 
+    margin-top: 5%; 
+    margin-left: 5%; 
+    float:left; 
+}
+
+.pinned-apps {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+}
+
+.cell {
+    position: relative;
+    flex: 0 0.1 32%;
+    height: 90px;
+    width:18%;
+    margin-bottom: 5px;
+    background-color: gray;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+.app-title {
+    position: relative;
+    flex: 0 0.1 32%;
+    height: 20px;
+    width:20%;
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:50%
+}
