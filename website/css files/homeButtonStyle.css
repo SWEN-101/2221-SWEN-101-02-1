@@ -60,9 +60,9 @@
 }
 
 .button-62:not([disabled]):focus {
-  box-shadow: 0 0 .5rem #f5f2ed, -.155rem -.155rem 2rem #f5f2ed, .155rem .155rem 2rem #f5f2ed;
+  box-shadow: 0 0 .2rem #f5f2ed, -.125rem -.125rem .5rem #f5f2ed, .155rem .125rem .5rem #f5f2ed;
 }
 
 .button-62:not([disabled]):hover {
-  box-shadow: 0 0 .5rem #f5f2ed, -.155rem -.155rem 2rem #f5f2ed, .155rem .155rem 2rem #f5f2ed;
+  box-shadow: 0 0 .2rem #f5f2ed, -.125rem -.125rem .5rem #f5f2ed, .125rem .125rem .5rem #f5f2ed;
 }
