@@ -9,6 +9,7 @@
   color:black;
   font-size: 280%;
   font-weight: bold;
+  text-align: center;
 }
 
 #banner {
@@ -17,6 +18,10 @@
 }
 
 #home_styler {
+justify-content: center;
+align-items: center;
+display: flex;
+    
   border-radius: 20px;
   border: darkblue;
   background-color: darkcyan;
@@ -34,8 +39,7 @@
 
 /* CSS */
 .button-62 {
-  
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  background: linear-gradient(to bottom right, #a75c2d, #9b5021);
   border: 0;
   border-radius: 12px;
   color: #FFFFFF;
