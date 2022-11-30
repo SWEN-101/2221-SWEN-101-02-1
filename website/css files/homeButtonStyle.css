@@ -5,6 +5,12 @@
   margin-left: 41%;
 }
 
+#text_style {
+  color:black;
+  font-size: 280%;
+  font-weight: bold;
+}
+
 #banner {
   height: 120px;
   background-color: orange;
