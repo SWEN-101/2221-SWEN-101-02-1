@@ -38,11 +38,7 @@
 
 /* CSS */
 .button-62 {
-<<<<<<< HEAD
   background: linear-gradient(to bottom right, #ce4230, #ce4230);
-=======
-  background: linear-gradient(to bottom right, #ffed75, #ffffff);
->>>>>>> 7cc00867950e46ebed3fba5c30640cb5fae9942a
   border: 0;
   border-radius: 12px;
   color: #FFFFFF;
@@ -64,17 +60,9 @@
 }
 
 .button-62:not([disabled]):focus {
-<<<<<<< HEAD
   box-shadow: 0 0 .5rem #ce4230, -.155rem -.155rem 2rem #ce4230, .155rem .155rem 2rem #ce4230;
 }
 
 .button-62:not([disabled]):hover {
   box-shadow: 0 0 .5rem #ce4230, -.155rem -.155rem 2rem #ce4230, .155rem .155rem 2rem #ce4230;
-=======
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(115, 250, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
-
-.button-62:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(115, 250, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
->>>>>>> 7cc00867950e46ebed3fba5c30640cb5fae9942a
 }
