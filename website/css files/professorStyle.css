@@ -1,24 +1,29 @@
 #leftbox {
     float:left; 
     width:33%;
-    height:400px;
+    height:800px;
+    align-items: center;
+    margin: 0 auto;
 }
 #middlebox{
     float:left; 
     width:34%;
     height:400px;
+    margin: 0 auto;
+
 }
 #rightbox{
     float:right;
     width:33%;
     height:400px;
+    margin: 0 auto;
 }
 
 .professor-image {
-    margin-top:10%;
+    margin-top:3%;
     margin-left: auto;
     margin-right:auto;
-    height:60%;
+    height:40%;
     width:70%;
     background-color: white;
     border-style: solid;
@@ -61,4 +66,141 @@
     border-style: solid;
     border-color:black;
     border-radius:25px;
+}
+
+.box-prof{   
+    display: inline-block;
+    width: 16vw;
+    height: 12.5vw;
+    margin-left: 25%;
+    background-color: white;
+    position: relative;
+	text-align: center;
+    border: 3px solid black;
+    border-radius:25px;
+    /* margin-left:50%;
+    margin: 3%;
+    text-align:center;
+    height:30%;
+    width:50%;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius:25px; */
+}
+
+.box-text-prof { 
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin-left:10px;
+    font-size: 30px;
+    color:black;
+
+}
+
+.professor-name-box{  
+    margin-top:10px; 
+    padding-top:10px;
+    display: inline-block;
+    width: 20vw;
+    height: 2.25vw;
+    margin-left: 18%;
+    background-color: white;
+    position: relative;
+	text-align: center;
+    border: 3px solid black;
+    border-radius:0px;
+    /* margin-left:50%;
+    margin: 3%;
+    text-align:center;
+    height:30%;
+    width:50%;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius:25px; */
+}
+
+.contact-me {
+    margin-top:3%;
+    display: inline-block;
+    width: 20vw;
+    height: 12.5vw;
+    margin-left: 20%;
+    background-color: white;
+    position: relative;
+	text-align: center;
+    border: 3px solid black;
+    border-radius:25px;
+}
+
+.subsection-title {
+    margin-top:10px;
+    padding-top:10px;
+    display: inline-block;
+    width: 16vw;
+    height: 12.5vw;
+    margin-left: 25%;
+    background-color: white;
+    position: relative;
+	text-align: center;
+    border: 3px solid black;
+    border-radius:25px;
+}
+
+.contact-me {
+    margin-top:10px;
+    padding-top:10px;
+    display: inline-block;
+    width: 20vw;
+    height: 12.5vw;
+    margin-left: 20%;
+    background-color: white;
+    position: relative;
+	text-align: center;
+    border: 3px solid black;
+    border-radius:25px;
+}
+
+.pinned-apps {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+}
+
+.cell {
+    position: relative;
+    flex: 0 0.1 32%;
+    height: 90px;
+    width:18%;
+    margin-bottom: 5px;
+    background-color: gray;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+}
+.app-title {
+    font-size:20px;
+}
+
+
+.gap {
+    padding-top:5px;
+}
+
+.office-hours {
+    margin: 3%;
+    text-align:center;
+    margin-left:25%;
+    height:100%;
+    width:50%;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius:25px;
+}
+
+.hide{
+    text-decoration: none;
 }
