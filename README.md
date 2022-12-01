@@ -14,30 +14,19 @@ A compact app that has everything you need while attending a university. This ap
 
 ## Prerequisites 
 
-- github accounts and basic github.io knowledge
-- university account
-- 
+- University Account
+- 2 Factor authentication device. (Phone primarily)
+- Basic web traversal knowledge
 
 ## How to access it or run it  <_add when applicable_>
 
-1. Click the link provided above to view Communikey.
-2. Navigate through the website using hyperlinks.
+1. Click the link provided at the top of the README.md (this file)
+2. Navigate through the website using links/images/buttons.
 
 ## Known bugs and disclaimers
-(It may be the case that your implementation is not perfect...)
-
-Document any known bug or nuisance.
-If any shortcomings, make clear what these are and where they are located.
-
-## Link or full list of requirements
- <_you could linkto the specific private board where your backlog is kept_>
+1. Text escaping boxes /
+2. Boxes uncentered on some screens.
 
 
-
-
-
-## License
-
-Proprietary Software.
-
+Proprietary Software License.
 See LICENSE for Details
