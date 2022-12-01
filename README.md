@@ -24,7 +24,7 @@ A compact app that has everything you need while attending a university. This ap
 2. Navigate through the website using links/images/buttons.
 
 ## Known bugs and disclaimers
-1. Text escaping boxes /
+1. Text escaping boxes
 2. Boxes uncentered on some screens.
 
 ## Issue Board
@@ -32,6 +32,7 @@ https://trello.com/b/VxQBp310/2221-swen-101-02-1
 
 ## Presentation Video
 https://www.youtube.com/watch?v=f4pkJXq5efQ
+
 
 Proprietary Software License.
 See LICENSE for Details
